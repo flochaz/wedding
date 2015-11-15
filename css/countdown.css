@@ -35,6 +35,7 @@
 	width: 14%;
 }
 .countdown-section {
+	border-radius: 25px;
 	background: #fff;
 	color: #ff823e;
 	display: block;

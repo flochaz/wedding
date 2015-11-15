@@ -243,11 +243,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/strom.png') center top no-repeat;
+ background:transparent url('../images/raf-face.jpg') center top no-repeat;
 }
 
 .katyhuff:hover {
-   background-image: url('../images/stromicon.jpg');
+   background-image: url('../images/raf-right.jpg');
 }
 
 .amgallow {
@@ -256,11 +256,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/katy.png') center top no-repeat;
+ background:transparent url('../images/mel-face.jpg') center top no-repeat;
 }
 
 .amgallow:hover {
-   background-image: url('../images/katyicon.png');
+   background-image: url('../images/mel-left.jpg');
 }
 
 .hover-effect i {

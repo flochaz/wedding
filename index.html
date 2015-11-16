@@ -372,10 +372,11 @@
 		<!-- ========== ACCOMMODATION END ========== -->
 
                 <!-- ========== LOCATION START ========== -->
+
                 <section id="location">
 
 
-                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoRMxiPsqJ9SUuaK1KsCAjd3gqnecjlBw&amp;sensor=true"></script>
+                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeS2DOcGd3AksixdJZ4KgqY8UBu68UWmk&amp;sensor=true"></script>
                         <script type="text/javascript">
 
                                 function initialize() {
@@ -406,7 +407,7 @@
                                                                         zoom: 15,
                                                                         center:
                                                                           new
-                                                                          google.maps.LatLng(41.795364, -87.590316),
+                                                                          google.maps.LatLng(43.58834, 6.14959),
                                         mapTypeControlOptions: {
                                           mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
                                         }
@@ -417,7 +418,8 @@
                                         map.mapTypes.set('map_style', styledMap);
                                         map.setMapTypeId('map_style');
 
-                                        setMarkers(map, weddingplaces,'images/map-marker.png' );
+                                        var kmzLayer = new google.maps.KmlLayer('https://raw.githubusercontent.com/flochaz/wedding/gh-pages/map/rafetmelmap.kmz');
+    									kmzLayer.setMap(map);
                                 }
 
 
@@ -464,8 +466,8 @@
 
                                 google.maps.event.addDomListener(window, 'load', initialize);
                         </script>
-
-                        <a href="https://www.google.com/maps/d/edit?mid=zwJ5Sc8HIDN4.kHElukijiprI">
+                        <div id="map-canvas"></div>
+                      <!--   <a href="https://www.google.com/maps/d/edit?mid=zwJ5Sc8HIDN4.kHElukijiprI">
                         <div id="map-canvas"></div>
                       </a>
                         <!-- ========== LOCATION END ========== -->

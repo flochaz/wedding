@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.1'>
+	<Document>
+		<name>Raf and Mel Wedding</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<name>Hôtel Best Western Le Galice</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.4344919999999775,43.52796499999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Appart'Hôtel Les Rochers</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.658487499999978,43.3636199,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hôtel Occitan</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.607346000000007,43.37619,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Campanile</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.523921900000005,43.49120809999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hotel Le Coin Tranquille</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.510197999999946,43.35228499999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mas Capien</name>
+				<description><![CDATA[Mas capien<br><br>421 chemin capien, Roquevaire]]></description>
+				<styleUrl>#icon-1035</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.5979928,43.3546517,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LOGIS Le Mas De L'Etoile</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.594090300000062,43.32330450000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hotel ibis budget Marseille Est Saint Menet</name>
+				<styleUrl>#icon-1035-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.510735999999952,43.287109,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mairie, La Colle-sur-Loup</name>
+				<styleUrl>#icon-1289-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>7.103191000000038,43.686722,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vin d'honeur, La Gaude</name>
+				<styleUrl>#icon-1177-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>7.152047000000039,43.72220299999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Reception, Côté Jardin</name>
+				<styleUrl>#icon-1385-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>5.6012439999999515,43.388144,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1035-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1035-biz-hotel.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1035-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1035-biz-hotel.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1035'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1035-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1035-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1035-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1035-biz-hotel.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1035-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1035-biz-hotel.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1035-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1035-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1035-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1177-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1177-crisis-tornado-alt.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1177-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1177-crisis-tornado-alt.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1177-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1177-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1177-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1289-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1289-poi-museum.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1289-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1289-poi-museum.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1289-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1289-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1289-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1385-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1385-rec-racetrack.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1385-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1385-rec-racetrack.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1385-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1385-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1385-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

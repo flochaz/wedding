@@ -481,9 +481,9 @@
 
                 <!-- ========== LOCATION START ========== -->
 
-                <section id="location">
+                <section id="location" >
 
-
+                		<!--
                         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeS2DOcGd3AksixdJZ4KgqY8UBu68UWmk&amp;sensor=true"></script>
                         <script type="text/javascript">
 
@@ -491,17 +491,7 @@
 
                                         // Create an array of styles.
                                         var styles = [
-                                          {
-                                            "stylers": [
-                                              { "saturation": -100 },
-                                              { "gamma": 1 }
-                                            ]
-                                          },{
-                                            "featureType": "water",
-                                            "stylers": [
-                                              { "lightness": -12 }
-                                            ]
-                                          }
+                                         
                                         ];
 
                                         // Create a new StyledMapType object, passing it the array of styles,
@@ -574,7 +564,10 @@
 
                                 google.maps.event.addDomListener(window, 'load', initialize);
                         </script>
-                        <div id="map-canvas"></div>
+
+                        <div id="map-canvas"></div>-->
+                        <div class="overlay" onClick="style.pointerEvents='none'"></div>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=zAsoAQ4yhbpA.kI-py-_RCezA" width="70%" height="480" style="display:block;margin: 0 auto;" ></iframe>
                       <!--   <a href="https://www.google.com/maps/d/edit?mid=zwJ5Sc8HIDN4.kHElukijiprI">
                         <div id="map-canvas"></div>
                       </a>

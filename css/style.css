@@ -43,7 +43,7 @@ h3,h4,h5,h6 {
 }
 
 h6 {
-	color: #ff823e;
+	color: ##0000CD;
 }
 
 .x {
@@ -199,14 +199,14 @@ section {
 
 .heading span {
 	border: 0;
-	border-top: 1px solid #ff823e;
+	border-top: 1px solid ##0000CD;
 	display: inline-block;
 	margin: 5px 10px;
 	width: 40px;
 }
 
 .heading i {
-	color: #ff823e;
+	color: ##0000CD;
 }
 
 /* MAIN BANNER
@@ -222,7 +222,7 @@ section {
 }
 
 .hover-effect span {
-	background: #ff823e;
+	background: ##0000CD;
 	color: #fff;
 	display: block;
 	height: 0;
@@ -269,7 +269,7 @@ section {
 }
 
 .amgallow:hover {
-   background-image: url('../images/mel-left.jpg');
+   background-image: url('../images/mel_profile.JPG');
 }
 
 .hover-effect i {
@@ -286,6 +286,24 @@ section {
 .hover-effect:hover i {
 	top: 50%;
 }
+#logo-holder .image,
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .text {
+	width: 90%;
+	height: 100%;
+	border-radius: 50%;
+	position:absolute; 
+	top:0; 
+	left:5%; 
+	opacity:0;
+	text-align: center;
+	border: 2px solid #999999;
+	color: #000;
+	font-weight: bold;
+	}
+
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;}
 
 /* SOCIAL ICONS
 =========================================================================================*/
@@ -311,8 +329,8 @@ section {
 }
 
 .social-icons a:hover {
-	border: 1px solid #ff823e;
-	color: #ff823e;
+	border: 1px solid #0000CD;
+	color: #0000CD;
 }
 
 /* PEOPLE & ACCOMMODATION
@@ -370,7 +388,7 @@ section {
 }
 
 .post-header span {
-	color: #ff823e;
+	color: ##0000CD;
 }
 
 .post-meta {
@@ -440,7 +458,7 @@ section {
 }
 
 #facts .img-circle {
-	background: #ff823e;
+	background: ##0000CD;
 	height: 213px;
 	padding-top: 60px;
 }
@@ -474,8 +492,12 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #6ec06e;
+	background: #00008f;
 	padding: 50px;
+	color: #fff;
+}
+
+#rsvp h2{
 	color: #fff;
 }
 
@@ -494,8 +516,8 @@ section {
 }
 
 #rsvp .btn {
-	background: #ffde25;
-	color: #222;
+	background: #1E90FF;
+	color: #fff;
 	margin-top: 20px;
 	padding-bottom: 20px;
 }

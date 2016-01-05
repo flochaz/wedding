@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 		<meta name="description" content="marriage">
 		<meta name="author" content="Katy Huff">
 		<title>Mariage de Raf  &amp; Mel</title>
@@ -47,8 +47,16 @@
 		<script src="js/html5shiv.js"></script>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
+		<script src="js/jquery-1.10.2.min.js"></script>
 
+		<script>
+    $( document ).ready(function() {
+$(".navbar-nav li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+    });
+        });
 
+    </script>
 	</head>
 	<body >
 
@@ -98,15 +106,15 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Page principale<!--<img src="images/logo.png" alt="" class="img-responsive" />--></a>
+					<a class="navbar-brand" href="index.html">Page principale</a>
 				</div>
+				
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#about">Nous</a></li>
 						<li><a href="#events">L'orga</a></li>
 						<li><a href="#accommodation">Ou décuver</a></li>
 						<li><a href="#location">La map</a></li>
-						<!--<li><a href="#gallery">Tofs</a></li>-->
 						<li><a href="#rsvp">RSVP</a></li>
 					</ul>
 				</div>
@@ -208,9 +216,22 @@
 						<p><span></span><i class="fa fa-heart"></i><span></span></p>
 						<p>Nous avons fait des réservations de chambres pour chacun d'entre vous. <br>
 						Passez votre curseur sur les differents hotels pour voir l'hôtel que nous avons réservé pour vous</p>
+
+							<div id="findwindow" class="findwindow">
+								<div  onmouseover="over=1;" onmouseout="over=0;"></div>
+								<div id="window_body" style="padding: 1em;">
+									<form onsubmit="return false;">
+										<input type="search" size="12" maxlength="25" id="fwtext" onchange="resettext();" placeholder="Prenom Nom"/>
+										<input type="button" value="<" onclick="findprev();"/>
+										<input id="btn" type="button" value=">" onclick="this.blur(); findit();"/> 
+										<span id="find_msg"></span>
+									</form>
+								</div>
+							</div>
+								
+			
 					</div>
 				</div>
-
 				<div class="row">
 
 					<div class="col-sm-3 text-right" data-scroll-reveal="enter from the left after 0.25s">
@@ -225,9 +246,9 @@ Hôtel Best Western Aix</a></h5>
 
 					<div class="col-sm-3" data-scroll-reveal="enter from the left after 0.25s">
                             <div id="logo-holder">
-								<img src="images/hotels/bestWesternAix.jpg" alt="" class="image img-responsive img-circle" />
+								<img src="images/hotels/bestWesternAix.jpg" alt="" style="" class="image img-responsive img-circle" />
 								<div class="text" onclick="">
-									Flo Chaz, <br/>
+									Flo Chaz1, <br/>
 									Laura, </br>
 									Niko, <br/>
 									Charles Henry,<br/>
@@ -239,7 +260,7 @@ Hôtel Best Western Aix</a></h5>
                         	<div id="logo-holder">
 								<img src="images/hotels/appartHotelLesRochers.jpeg" alt="" class="image img-responsive img-circle" />
 								<div class="text" onclick="">
-									Flo Chaz, <br/>
+									Flo Chaz2, <br/>
 									Laura, </br>
 									Niko, <br/>
 									Charles Henry,<br/>
@@ -272,7 +293,7 @@ Appart'Hôtel Les Rochers</a></h5>
                         	<div id="logo-holder">
 								<img src="images/hotels/coinTranquille.jpg" alt="" class="image img-responsive img-circle"/>
 								<div class="text" onclick="">
-									Flo Chaz, <br/>
+									Flo Chaz3, <br/>
 									Laura, </br>
 									Niko, <br/>
 									Charles Henry,<br/>
@@ -286,7 +307,7 @@ Appart'Hôtel Les Rochers</a></h5>
                     	<div id="logo-holder">
 							<img src="images/hotels/masCapienGite.jpg" alt="" class="image img-responsive img-circle"/>
 							<div class="text" onclick="">
-								Flo Chaz, <br/>
+								Flo Chaz4, <br/>
 								Laura, </br>
 								Niko, <br/>
 								Charles Henry,<br/>
@@ -320,7 +341,7 @@ Hôtel Occitan</a></h5>
                         	<div id="logo-holder">
 								<img src="images/hotels/occitanHotel.jpeg" alt="" class="image img-responsive img-circle"/>
 								<div class="text" onclick="">
-									Flo Chaz, <br/>
+									Flo Chaz5, <br/>
 									Laura, </br>
 									Niko, <br/>
 									Charles Henry,<br/>
@@ -334,7 +355,7 @@ Hôtel Occitan</a></h5>
                         	<div id="logo-holder">
 								<img src="images/hotels/CampanilMeyreuil.jpg" alt="" class="image img-responsive img-circle"/>
 								<div class="text" onclick="">
-									Flo Chaz, <br/>
+									Flo Chaz6, <br/>
 									Laura, </br>
 									Niko, <br/>
 									Charles Henry,<br/>
@@ -368,7 +389,7 @@ Hôtel Le Mas de L'Etoile</a></h5>
                         	<div id="logo-holder">
 								<img src="images/hotels/masdeletoile.jpg" alt="" class="image img-responsive img-circle"/>
 								<div class="text" onclick="">
-									Flo Chaz, <br/>
+									Flo Chaz7, <br/>
 									Laura, </br>
 									Niko, <br/>
 									Charles Henry,<br/>
@@ -381,7 +402,7 @@ Hôtel Le Mas de L'Etoile</a></h5>
                         	<div id="logo-holder">
 								<img src="images/hotels/ibisBudgetMarseille.jpg" alt="" class="image img-responsive img-circle"/>
 								<div class="text" onclick="">
-									Flo Chaz, <br/>
+									Flo Chaz8, <br/>
 									Laura, </br>
 									Niko, <br/>
 									Charles Henry,<br/>
@@ -390,14 +411,38 @@ Hôtel Le Mas de L'Etoile</a></h5>
 					</div>
 
 					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
-						<h5>                        <a target="_blank"  href="http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=3525&merchantid=seo-maps-FR-3525&sourceid=aw-cen">
-Hôtel Ibis Budget Marseille Est</a></h5>
+						<h5><a target="_blank"  href="http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=3525&merchantid=seo-maps-FR-3525&sourceid=aw-cen">Hôtel Ibis Budget Marseille Est</a></h5>
 												<p>184 Av. de Saint Menet<br>
 												13011 Marseille</p>
 												<p>Tarif : de 22 à 33 euros/personne
                                                 <br>Info : Le petit déjeuné est inclus.</p>
 						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span>
 						</span></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3 text-right" data-scroll-reveal="enter from the left after 0.25s">
+						<h5>Hôtel Le Commerce</h5>
+                                                <p>1 Rue Ravel Timothée<br/>
+                                                  13390 Auriol<br/>
+                                                  +33 4 42 04 70 25</p>
+
+                                                <p>Tarif : 37 euros/personne</p>
+                    <div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span>
+						</span></div>
+					</div>
+
+					<div class="col-sm-3" data-scroll-reveal="enter from the left after 0.25s">
+                        	<div id="logo-holder">
+								<img src="images/hotels/le_commerce.jpg" alt="" class="image img-responsive img-circle"/>
+								<div class="text" onclick="">
+									Flo Chaz9, <br/>
+									Laura, </br>
+									Niko, <br/>
+									Charles Henry,<br/>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -482,11 +527,11 @@ Hôtel Ibis Budget Marseille Est</a></h5>
 
 		<!-- ========== FOOTER END ========== -->
 
+		<script type="text/javascript" language="JavaScript" src="js/find5.js"></script>
 		<!-- Modernizr Plugin -->
 		<script src="js/modernizr.custom.97074.js"></script>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery-1.10.2.min.js"></script>
 
 		<!-- Bootstrap Plugins -->
 		<script src="js/bootstrap.min.js"></script>

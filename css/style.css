@@ -299,9 +299,8 @@ section {
 	text-align: center;
 	border: 2px solid #999999;
 	color: #000;
-	font-weight: bold;
 	font-family: 'Engagement', cursive;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	}
 
 #logo-holder:hover .image {opacity:0;}

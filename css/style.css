@@ -291,7 +291,7 @@ section {
 #logo-holder .text {
 	width: 90%;
 	height: 100%;
-	border-radius: 50%;
+	border-radius: 15%;
 	position:absolute; 
 	top:0; 
 	left:5%; 
@@ -299,8 +299,10 @@ section {
 	text-align: center;
 	border: 2px solid #999999;
 	color: #000;
-	font-family: 'Engagement', cursive;
-	font-size: 1.4em;
+	font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 1.714;
+    color: #999999;
 	}
 
 #logo-holder:hover .image {opacity:0;}

@@ -269,7 +269,7 @@ section {
 }
 
 .amgallow:hover {
-   background-image: url('../images/mel_profile.JPG');
+   background-image: url('../images/mel-left.jpg');
 }
 
 .hover-effect i {
@@ -301,7 +301,7 @@ section {
 	color: #000;
 	font-weight: bold;
 	font-family: 'Engagement', cursive;
-	font-size: 2em;
+	font-size: 1.5em;
 	}
 
 #logo-holder:hover .image {opacity:0;}

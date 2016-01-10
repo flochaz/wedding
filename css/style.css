@@ -492,30 +492,30 @@ section {
 }
 
 /* RSVP
-=========================================================================================*/
+=========================================================================================#00008f;*/
 
 #rsvp {
-	background: #00008f;
+	background: #f5f4ec; 
 	padding: 50px;
-	color: #fff;
+	color: #999999;
 }
 
 #rsvp h2{
-	color: #fff;
+	color: #000;
 }
 
 #rsvp .heading {
 	padding-bottom: 20px;
-	color: #fff;
+	color: #999999;
 }
 
 #rsvp .heading i {
-	color: #fff;
+	color: #000;
 }
 
-#rsvp .heading span {
-	border-color: #fff;
-	color: #fff;
+#rsvp span {
+	border-color: #000;
+	color: #999999;
 }
 
 #rsvp .btn {
